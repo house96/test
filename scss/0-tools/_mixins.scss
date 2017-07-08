@@ -1,0 +1,7 @@
+@mixin background($value) {
+  background-image: url("../../img/icons_pac.png");
+  background-position: $value;
+  background-repeat: no-repeat;
+
+
+}

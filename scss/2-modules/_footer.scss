@@ -1,0 +1,36 @@
+
+
+.main-footer {
+  margin: 70px 0;
+}
+
+.copyr img {
+  max-width: 100%;
+}
+
+
+.icon {
+  display: inline-block;
+  width: 45px;
+  height: 45px;
+  border: 4px solid #e9ebec;
+  border-radius: 50%;
+    &:hover {
+      border-color: #000;
+      transition: .5s;
+    }
+    &:active {
+      opacity: .4;
+      border-color: #e9ebec;
+    }
+
+    &--tw {
+      @include background(9px 8px);
+    }
+    &--fb {
+       @include background(-54px 8px);
+    }
+    &--g {
+      @include background(-116px 8px);
+    }
+}

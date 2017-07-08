@@ -1,0 +1,100 @@
+:root {
+   font-size: 16px;
+}
+body {
+    margin: 0;
+
+    background-color: $body-bg;
+
+    font-family: $font-family-base;
+    font-size: $font-size-base;
+    line-height: $line-height-base;
+    color: $base-color;
+}
+
+.jumbotron {
+
+    margin-top: 99px;
+
+
+
+    &__title {
+      font-size: 50px;
+     font-family: $font-family-base;
+     font-weight: 300;
+     text-align: center
+    }
+      &__list-icons {
+        list-style: none;
+      }
+      &__icon {
+        display: inline-block;
+        padding-right: 35px;
+        padding-top: 65px;
+
+      }
+      &__promo {
+        max-width: 100%;
+      }
+}
+
+.btn {
+  height: 49px;
+  width: 294px;
+  background: transparent;
+  border: 3px solid #fff;
+  border-radius: 50px;
+  outline: none;
+  font-size: 1.125rem;
+  font-weight: bold;
+    &:hover {
+      background-color: #FFF;
+      color: #d22856;
+    }
+
+    &:active {
+      color: rgba(#d22856, .4);
+    }
+}
+
+.content-title {
+
+    font-size: 50px;
+}
+
+.content {
+
+    text-align: center;
+    font-size: 18px;
+
+  background-image: url("../../img/Shape 2.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: #000;
+}
+
+#bg-svg {
+width: 100%;
+padding-top: 80px;
+}
+
+
+
+
+
+
+
+
+
+.map-wrapper {
+  position: relative;
+  max-width: 100%;
+
+}
+
+#svg {
+  max-width: 100%;
+  position: absolute;
+  top: 0px;
+}
+
